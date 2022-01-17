@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A10FD5CC272EEF4F00A9ED0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10FD5CB272EEF4F00A9ED0F /* main.cpp */; };
+		A10FD5D6272EF18800A9ED0F /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10FD5D5272EF18800A9ED0F /* libglfw3.a */; };
+		A10FD5DB272EF27800A9ED0F /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = A10FD5DA272EF27800A9ED0F /* glad.c */; };
+		A10FD5DE272EF31300A9ED0F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10FD5DD272EF31300A9ED0F /* AppKit.framework */; };
+		A10FD5E0272EF32600A9ED0F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10FD5DF272EF32600A9ED0F /* IOKit.framework */; };
+		A10FD5E2272EF33400A9ED0F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10FD5E1272EF33400A9ED0F /* CoreFoundation.framework */; };
+		A10FD5E4272EF34400A9ED0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10FD5E3272EF34400A9ED0F /* Foundation.framework */; };
+		A10FD5E6272EF35000A9ED0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10FD5E5272EF35000A9ED0F /* CoreGraphics.framework */; };
+		A10FD5F0272F2B6400A9ED0F /* shaderClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10FD5EF272F2B6400A9ED0F /* shaderClass.cpp */; };
+		A10FD5F7272F2F3400A9ED0F /* VBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10FD5F6272F2F3400A9ED0F /* VBO.cpp */; };
+		A10FD5FA272F311400A9ED0F /* EBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10FD5F9272F311400A9ED0F /* EBO.cpp */; };
+		A10FD5FD272F320C00A9ED0F /* VAO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10FD5FC272F320B00A9ED0F /* VAO.cpp */; };
+		A10FD603272F71C800A9ED0F /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10FD602272F71C800A9ED0F /* Camera.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +37,29 @@
 /* Begin PBXFileReference section */
 		A10FD5C8272EEF4F00A9ED0F /* PhysicsSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PhysicsSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10FD5CB272EEF4F00A9ED0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A10FD5D5272EF18800A9ED0F /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw3.a; sourceTree = "<group>"; };
+		A10FD5D7272EF1E500A9ED0F /* GLFW */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GLFW; sourceTree = "<group>"; };
+		A10FD5D8272EF22C00A9ED0F /* glad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glad; sourceTree = "<group>"; };
+		A10FD5D9272EF23B00A9ED0F /* KHR */ = {isa = PBXFileReference; lastKnownFileType = folder; path = KHR; sourceTree = "<group>"; };
+		A10FD5DA272EF27800A9ED0F /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		A10FD5DD272EF31300A9ED0F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A10FD5DF272EF32600A9ED0F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		A10FD5E1272EF33400A9ED0F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A10FD5E3272EF34400A9ED0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A10FD5E5272EF35000A9ED0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A10FD5E7272F196800A9ED0F /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		A10FD5EE272F2A5D00A9ED0F /* shaderClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shaderClass.h; sourceTree = "<group>"; };
+		A10FD5EF272F2B6400A9ED0F /* shaderClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shaderClass.cpp; sourceTree = "<group>"; };
+		A10FD5F2272F2EC000A9ED0F /* VBO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBO.h; sourceTree = "<group>"; };
+		A10FD5F6272F2F3400A9ED0F /* VBO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VBO.cpp; sourceTree = "<group>"; };
+		A10FD5F8272F309000A9ED0F /* EBO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBO.h; sourceTree = "<group>"; };
+		A10FD5F9272F311400A9ED0F /* EBO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EBO.cpp; sourceTree = "<group>"; };
+		A10FD5FB272F317800A9ED0F /* VAO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VAO.h; sourceTree = "<group>"; };
+		A10FD5FC272F320B00A9ED0F /* VAO.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VAO.cpp; sourceTree = "<group>"; };
+		A10FD5FF272F3A4200A9ED0F /* default.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = default.frag; sourceTree = "<group>"; };
+		A10FD600272F3A4A00A9ED0F /* default.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = default.vert; sourceTree = "<group>"; };
+		A10FD601272F4E0F00A9ED0F /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		A10FD602272F71C800A9ED0F /* Camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +67,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10FD5E6272EF35000A9ED0F /* CoreGraphics.framework in Frameworks */,
+				A10FD5E4272EF34400A9ED0F /* Foundation.framework in Frameworks */,
+				A10FD5E2272EF33400A9ED0F /* CoreFoundation.framework in Frameworks */,
+				A10FD5E0272EF32600A9ED0F /* IOKit.framework in Frameworks */,
+				A10FD5DE272EF31300A9ED0F /* AppKit.framework in Frameworks */,
+				A10FD5D6272EF18800A9ED0F /* libglfw3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +82,10 @@
 		A10FD5BF272EEF4F00A9ED0F = {
 			isa = PBXGroup;
 			children = (
+				A10FD5D2272EEF6300A9ED0F /* Externals */,
 				A10FD5CA272EEF4F00A9ED0F /* PhysicsSimulator */,
 				A10FD5C9272EEF4F00A9ED0F /* Products */,
+				A10FD5DC272EF31300A9ED0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +103,83 @@
 				A10FD5CB272EEF4F00A9ED0F /* main.cpp */,
 			);
 			path = PhysicsSimulator;
+			sourceTree = "<group>";
+		};
+		A10FD5D2272EEF6300A9ED0F /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				A10FD5ED272F2A3A00A9ED0F /* Header Files */,
+				A10FD5E9272F289B00A9ED0F /* Resources */,
+				A10FD5DA272EF27800A9ED0F /* glad.c */,
+				A10FD5D4272EEF8100A9ED0F /* Libraries */,
+				A10FD5D3272EEF7600A9ED0F /* Include */,
+				A10FD5EF272F2B6400A9ED0F /* shaderClass.cpp */,
+				A10FD5F6272F2F3400A9ED0F /* VBO.cpp */,
+				A10FD5F9272F311400A9ED0F /* EBO.cpp */,
+				A10FD5FC272F320B00A9ED0F /* VAO.cpp */,
+				A10FD602272F71C800A9ED0F /* Camera.cpp */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		A10FD5D3272EEF7600A9ED0F /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				A10FD5E7272F196800A9ED0F /* glm */,
+				A10FD5D9272EF23B00A9ED0F /* KHR */,
+				A10FD5D8272EF22C00A9ED0F /* glad */,
+				A10FD5D7272EF1E500A9ED0F /* GLFW */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		A10FD5D4272EEF8100A9ED0F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A10FD5D5272EF18800A9ED0F /* libglfw3.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		A10FD5DC272EF31300A9ED0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A10FD5E5272EF35000A9ED0F /* CoreGraphics.framework */,
+				A10FD5E3272EF34400A9ED0F /* Foundation.framework */,
+				A10FD5E1272EF33400A9ED0F /* CoreFoundation.framework */,
+				A10FD5DF272EF32600A9ED0F /* IOKit.framework */,
+				A10FD5DD272EF31300A9ED0F /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A10FD5E9272F289B00A9ED0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A10FD5EA272F28A400A9ED0F /* Shaders */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A10FD5EA272F28A400A9ED0F /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				A10FD600272F3A4A00A9ED0F /* default.vert */,
+				A10FD5FF272F3A4200A9ED0F /* default.frag */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		A10FD5ED272F2A3A00A9ED0F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A10FD5EE272F2A5D00A9ED0F /* shaderClass.h */,
+				A10FD5F2272F2EC000A9ED0F /* VBO.h */,
+				A10FD5F8272F309000A9ED0F /* EBO.h */,
+				A10FD5FB272F317800A9ED0F /* VAO.h */,
+				A10FD601272F4E0F00A9ED0F /* Camera.h */,
+			);
+			path = "Header Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10FD5FD272F320C00A9ED0F /* VAO.cpp in Sources */,
+				A10FD5F0272F2B6400A9ED0F /* shaderClass.cpp in Sources */,
+				A10FD603272F71C800A9ED0F /* Camera.cpp in Sources */,
 				A10FD5CC272EEF4F00A9ED0F /* main.cpp in Sources */,
+				A10FD5DB272EF27800A9ED0F /* glad.c in Sources */,
+				A10FD5FA272F311400A9ED0F /* EBO.cpp in Sources */,
+				A10FD5F7272F2F3400A9ED0F /* VBO.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +367,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/Include";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/Libraries";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -249,6 +377,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/Include";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/Libraries";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
